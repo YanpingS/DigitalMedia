@@ -8,6 +8,8 @@ class VideoGame:public DigitalMedia{
   VideoGame(char* newTitle, int newYear, char* newPublisher, float newRating);
   char* getPublisher();
   float getRating();
+  void displayInfo();
+  int getType();
  private:
   char* publisher;
   float rating;

@@ -9,6 +9,8 @@ class Music:public DigitalMedia{
 	  char* getArtist();
 	  char* getPublisher();
 	  int getDuration();
+    void displayInfo();
+    int getType();
   private:
 	   char* artist;
 	   char* publisher ;

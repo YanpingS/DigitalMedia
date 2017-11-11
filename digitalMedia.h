@@ -5,8 +5,11 @@
 class DigitalMedia{
 	public:
 	  DigitalMedia(char* newTitle, int newYear);
+		~DigitalMedia();
 	  char* getTitle();
 	  int getYear();
+	  void displayInfo();
+		int getType();
 	private:
 	  char* title;
 	  int year;
